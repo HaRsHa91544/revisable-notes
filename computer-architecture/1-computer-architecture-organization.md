@@ -195,6 +195,20 @@ Example:
 Intel and AMD processors implement the same x86 ISA while using different internal designs.
 
 ---
+# 9. 8 Marks Answer
+
+| **Computer Architecture**                                                                        | **Computer Organization**                                                                        |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| 1. Refers to the **functional behavior and design** of a computer system.                        | 1. Refers to the **physical implementation** of the computer system.                             |
+| 2. Describes **what the computer does**.                                                         | 2. Describes **how the computer does it**.                                                       |
+| 3. Deals with programmer-visible features.                                                       | 3. Deals with hardware components and their interconnections.                                    |
+| 4. Includes **instruction set, data types, addressing modes, registers, and memory addressing**. | 4. Includes **control signals, ALU, buses, memory technology, and control unit implementation**. |
+| 5. It is concerned with the **design and functionality** of the system.                          | 5. It is concerned with the **arrangement and operation of hardware**.                           |
+| 6. Architecture generally remains the same even when hardware implementation changes.            | 6. Organization can change to improve **performance, cost, or reliability**.                     |
+| 7. Example: Instruction Set Architecture (ISA) such as ARM or x86.                               | 7. Example: Cache size, bus structure, and type of control unit used to implement an ISA.        |
+| 8. It acts as an **interface between hardware and software**.                                    | 8. It determines how the architectural specifications are **implemented in hardware**.           |
+
+---
 
 ### One-Line Memory Hook
 
