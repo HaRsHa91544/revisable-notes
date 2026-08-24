@@ -138,6 +138,40 @@ A single computer can execute many different programs by simply loading differen
 
 ---
 
-# 9. One-Line Memory Hook
+# 9. 8 Marks Answer
+## Stored Program Concept
+
+The **stored program concept** is a fundamental principle of modern computers in which **both instructions and data are stored in the same main memory**. The CPU fetches instructions from memory, decodes them, and executes them sequentially.
+
+### Working of Stored Program Concept
+
+1. **Input:** Data and instructions required for a program are entered into the computer.
+2. **Storage:** Both the program instructions and data are stored in the **main memory (RAM)**.
+3. **Fetch:** The **Control Unit (CU)** fetches an instruction from memory using the **Program Counter (PC)**.
+4. **Decode:** The fetched instruction is decoded to determine what operation needs to be performed.
+5. **Execute:** The **ALU (Arithmetic Logic Unit)** or other CPU components execute the instruction.
+6. **Repeat:** The process continues until all instructions are executed or a halt instruction is encountered.
+
+### Basic Block Diagram
+
+**Input → Main Memory ↔ CPU → Output**
+
+Inside the CPU:
+
+**CPU = Control Unit + ALU + Registers**
+
+### Advantages
+
+* Programs can be **stored and modified easily**.
+* The same hardware can execute **different programs**.
+* It provides **flexibility and programmability**.
+* Programs can be loaded into memory when required.
+* It forms the basis of the **Von Neumann computer architecture**.
+
+### Example
+
+When a program such as a calculator application is loaded, its **instructions and required data are placed in memory**. The CPU then fetches and executes these instructions one by one.
+---
+# 10. One-Line Memory Hook
 
 > **Don't change the hardware. Change the program stored in memory.**
