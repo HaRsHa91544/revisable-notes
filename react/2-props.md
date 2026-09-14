@@ -1,4 +1,4 @@
-# React Phase 2: Props
+# React Phase 1: Props
 
 ## 1. Why Props Exist
 
