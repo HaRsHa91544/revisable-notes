@@ -11,3 +11,7 @@
 
 ## How HTTP Request Response Model Works?
 <img src="img/1-http.jpeg">
+
+## Why we need to use JSON to send the data in HTTP request or response body?
+- The type of data like Objects or Arrays exists in the system's memory which may contains the references and they cannot be shared to another compouter.
+- So, JSON converts the data in a text or string format as sequence of chars and transmits the data.
